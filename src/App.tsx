@@ -18,7 +18,7 @@ const BBQLandingPage = () => {
 
     const openWhatsApp = () => {
         const message = "Hola! Estoy interesado/a en el servicio de parrilla para eventos.";
-        const phoneNumber = "5491112345678"; // Reemplaza con el número real
+        const phoneNumber = "5493876837031"; // Número real de contacto
         window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
     };
 
@@ -124,13 +124,14 @@ const BBQLandingPage = () => {
                                 <CardHeader>
                                     <CardTitle className="flex items-center gap-3">
                                         <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                                            <span className="text-2xl">🍽️</span>
+                                            <span className="text-2xl">🪑</span>
                                         </div>
-                                        Mesas y Sillas
+                                        Mesas, Sillas y Decoración
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-gray-600">Mesas resistentes y sillas cómodas para más de 40 personas. Configuración y desmontaje incluido.</p>
+                                    <p className="text-gray-600">Mesas, caballetes, sillas para más de 40 personas y servicio de decoración.
+                                    </p>
                                 </CardContent>
                             </Card>
                         </motion.div>
@@ -164,13 +165,13 @@ const BBQLandingPage = () => {
                                 <CardHeader>
                                     <CardTitle className="flex items-center gap-3">
                                         <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                                            <span className="text-2xl">🍴</span>
+                                            <span className="text-2xl">🍽️</span>
                                         </div>
                                         Vajilla Completa
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-gray-600">Juegos de cubiertos, platos, vasos y servilletas para todos tus invitados.</p>
+                                    <p className="text-gray-600">Juegos de cubiertos, platos, vasos y servilleteros para todos tus invitados.</p>
                                 </CardContent>
                             </Card>
                         </motion.div>
